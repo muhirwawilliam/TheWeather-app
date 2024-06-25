@@ -32,4 +32,17 @@ body {
 .search-button {
   background: transparent;
   border: none;
+  align-items: center;
+}
+
+.search-input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
 }
