@@ -1,47 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, iniatial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Weather App</title>
-
   <link rel="stylesheet" href="style.css">
-  <body>
-
+  <script defer src="script.js"></script> <!-- Use defer to ensure the script runs after the HTML is loaded -->
+</head>
+<body>
   <div class="card">
     <div class="search">
-      <input class="search-input" type ="text" placeholder="Search..." spellcheck="false">
+      <input class="search-input" type="text" placeholder="Search..." spellcheck="false">
       <button class="search-button"><img src="img/search.png" alt="search-button"></button>
     </div>
     <div class="weather">
       <img src="img/rain.png" class="weather-icon" alt="weather-icon">
       <h1 class="temperature">22°C</h1>
       <h2 class="city">Brussels</h2>
-
       <div class="details">
         <div class="col">
-          <img src="img/wind.png" class="weather-icon-details"">
+          <img src="img/wind.png" class="weather-icon-details" alt="wind-icon">
           <div>
             <p class="wind-speed">5 km/h</p>
-            <p> Wind Speed</p>
+            <p>Wind Speed</p>
           </div>
         </div>
         <div class="col">
-          <img src="img/rain.png" class="weather-icon-details">
+          <img src="img/rain.png" class="weather-icon-details" alt="rain-icon">
           <div>
             <p class="rain">50 ml/h</p>
-            <p> Rain</p>
+            <p>Rain</p>
           </div>
         </div>
       </div>
-
-
-
-
-
     </div>
   </div>
-
-
-  </body>
-
+</body>
 </html>
